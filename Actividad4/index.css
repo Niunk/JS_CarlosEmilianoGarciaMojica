@@ -1,0 +1,105 @@
+body{
+  margin: 0%;
+  background-color: #000000;
+}
+h1{
+  position: absolute;
+  top: 10%;
+  height: 5%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  text-align: center;
+  color: #FFFFFF;
+}
+#boton{
+  position: absolute;
+  top: 23%;
+  left: 45%;
+  height: 50px;
+  width: 150px;
+  font-size: 1.5em;
+  background-color: rgb(255, 222, 138);
+  cursor:pointer;
+}
+#boton:hover{
+  background-color: rgb(255, 247, 138);
+}
+#padre{
+  position:absolute;
+  top: 35%;
+  left: 38%;
+  height: 40%;
+  width: 400px;
+  background-color: rgb(206, 206, 206);
+}
+.hijos{
+  display:inline-block;
+  position:relative;
+  height: 45%;
+  width: 45%;
+  cursor: pointer;
+}
+.arr{
+  margin-top: 5%;
+}
+.ab{
+  margin-bottom: 5%;
+}
+.iz{
+  margin-left:5%;
+}
+.der{
+  position:absolute;
+  left: 50%;
+  margin-right: 5%;
+}
+#padre > #verde, #padre > #verEnc{
+  top: 0%;
+}
+#amarillo{
+  background-color: rgb(221, 190, 12);
+}
+#azul{
+  background-color: rgb(32, 98, 240);
+}
+#verde{
+  background-color: green;
+}
+#rojo{
+  background-color: red;
+}
+#amarillo:hover{
+  background-color: rgb(253, 232, 112);
+}
+#azul:hover{
+  background-color: rgb(167, 227, 245);
+}
+#verde:hover{
+  background-color: rgb(116, 236, 116);
+}
+#rojo:hover{
+  background-color: rgb(255, 136, 136);
+}
+#amaEnc{
+  background-color: rgb(253, 232, 112);
+}
+#azEnc{
+  background-color: rgb(167, 227, 245);
+}
+#verEnc{
+  background-color: rgb(116, 236, 116);
+}
+#roEnc{
+  background-color: rgb(255, 136, 136);
+}
+#res{
+  position: relative;
+  top: 30vh;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  font-size: 7em;
+  text-align: center;
+  color: white;
+}
